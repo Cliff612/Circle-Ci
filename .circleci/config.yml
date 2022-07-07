@@ -4,6 +4,4 @@ orbs:
 workflows:
     example-workflow:
       jobs:
-        - node/test:
-            pkg-manager: npm 
-            test-results-for: mocha 
+        - node/run
