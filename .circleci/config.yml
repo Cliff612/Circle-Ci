@@ -1,8 +1,7 @@
 orbs:
-  node: circleci/node@5.0.2
+  cypress: cypress-io/cypress@2.0.0
 
-  workflows:
+workflows:
     example-workflow:
       jobs:
-        - node/run:
-            app-dir: C:\Users\cliff\OneDrive\Desktop\CIRCLE-CI\CYPRESS\package.json 
+        - cypress/run
